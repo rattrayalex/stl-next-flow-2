@@ -27,6 +27,7 @@ jobs:
       - name: rebase next onto main
         run: |
           git pull origin next
+          git checkout main
           git pull origin main
           git checkout next
           git rebase main
