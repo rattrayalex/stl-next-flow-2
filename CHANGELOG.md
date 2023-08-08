@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/devdoshi/stl-next-flow-2/compare/v2.1.0...v2.2.0) (2023-08-08)
+
+
+### Features
+
+* add german ([1ea2009](https://github.com/devdoshi/stl-next-flow-2/commit/1ea200995320fc645d7f83c48b4fdfcb52d68301))
+
 ## [2.1.0](https://github.com/devdoshi/stl-next-flow-2/compare/v2.0.0...v2.1.0) (2023-08-08)
 
 
