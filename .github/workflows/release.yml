@@ -27,8 +27,8 @@ jobs:
       - name: rebase next onto main
         run: |
           git pull origin next
-          git checkout main
+          git checkout -b main origin/main
           git pull origin main
-          git checkout next
+          git checkout -b next origin/next
           git rebase main
           git push --force-with-lease origin next
