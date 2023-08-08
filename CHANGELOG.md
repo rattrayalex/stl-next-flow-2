@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/devdoshi/stl-next-flow-2/compare/v2.0.0...v2.1.0) (2023-08-08)
+
+
+### Features
+
+* add french ([fa7490c](https://github.com/devdoshi/stl-next-flow-2/commit/fa7490c4d63f911a890b999ac3203b1b205be821))
+
 ## [2.0.0](https://github.com/devdoshi/stl-next-flow-2/compare/v1.0.0...v2.0.0) (2023-08-08)
 
 
