@@ -19,3 +19,4 @@ jobs:
           release-type: node
           package-name: my-package
           default-branch: next
+          skip-labeling: true
