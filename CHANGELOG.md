@@ -5,6 +5,24 @@
 
 ### ⚠ BREAKING CHANGES
 
+* swedish
+
+### Features
+
+* swedish ([8d7ceda](https://github.com/devdoshi/stl-next-flow-2/commit/8d7cedad7896a8d0512e83ea1fc423c342209f03))
+
+
+### Bug Fixes
+
+* wip ([bb78edd](https://github.com/devdoshi/stl-next-flow-2/commit/bb78eddff69d3d6045870b8256e37bc0270b9ca1))
+* wip ([f788159](https://github.com/devdoshi/stl-next-flow-2/commit/f7881598a8dc68fe6678f719cf177f78c265e29d))
+* wip ([631e0c7](https://github.com/devdoshi/stl-next-flow-2/commit/631e0c7df970c93e5a710ae250e63fdd2ca578e9))
+
+## [2.0.0](https://github.com/devdoshi/stl-next-flow-2/compare/v1.0.0...v2.0.0) (2023-08-08)
+
+
+### ⚠ BREAKING CHANGES
+
 * skip labeling
 
 ### Features
