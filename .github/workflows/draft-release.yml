@@ -1,0 +1,21 @@
+name: Draft Release
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  push:
+    branches:
+      - next
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          command: release-pr
+          release-type: node
+          package-name: my-package
+          default-branch: next

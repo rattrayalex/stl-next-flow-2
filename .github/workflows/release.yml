@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          command: github-release
+          release-type: node
+          package-name: my-package
+          default-branch: main
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: next
+      - name: rebase next onto main
+        run: |
+          git checkout next
+          git pull origin next
+          git pull origin main
+          git rebase main
+          git push --force-with-lease origin next
