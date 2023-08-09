@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/devdoshi/stl-next-flow-2/compare/v2.2.0...v3.0.0) (2023-08-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove german
+
+### Features
+
+* remove german ([c7d81e0](https://github.com/devdoshi/stl-next-flow-2/commit/c7d81e098dc7abdc10c2500a50a17fc2959ab576))
+
 ## [2.2.0](https://github.com/devdoshi/stl-next-flow-2/compare/v2.1.0...v2.2.0) (2023-08-08)
 
 
